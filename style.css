@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    position: relative;
+    font-family: 'Pixelify Sans', cursive;
+}
+.banner{
+    background-image: url('yae.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid palevioletred;
+    /**vh is view height, vw is view width, depends on your screen**/
+    height: 40vh;
+
+}
+.photoandun{
+    position: relative;
+    left: 10vw;
+    bottom: 6vw;
+}
+.photoandun img{
+    width: 25vh;
+    height: 23vh;
+    min-width: 5vh;
+    min-height: 5vh;
+    border: 2px solid palevioletred;
+}
+.photoandun span{
+    position: relative;
+    bottom: 4vh;
+    margin-left: 3vw;
+    font-weight: 600;
+    font-size: xx-large;
+
+}
+.socials{
+    border: 1px solid palevioletred;
+    display: inline-block;
+    padding: 2vw;
+    bottom: 20vh;
+    padding-right: 5w;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    position: fixed;
+    
+}
+.socials a{
+    display: block;
+    text-decoration: none;
+    color: rgb(239, 122, 142);
+}
+
+.content{
+    position: absolute;
+    left: 20vw;
+    top: 25vw;
+    border: 1px solid rgb(168, 85, 113);
+    display: inline-block;
+    width: 70vw;
+}
